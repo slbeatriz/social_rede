@@ -73,3 +73,43 @@ h3{
     bottom: 90px;
     right: 6px;
 }
+
+
+@media screen and (max-width: 730px){
+    .container{
+        width: 350px;
+        height: 400px;
+    }
+
+    .img_one{
+        width: 350px;
+        height: 200px;
+    }
+
+    .text{
+        bottom: 70px;
+        border-bottom: none;
+    }
+
+    span{
+        font-size: 15px;
+        position: relative;
+        bottom: 25px;
+    }
+
+    .numbers_follows{
+        position: relative;
+        bottom: 115px;
+    }
+
+    .follows{
+        position: relative;
+        bottom: 148px;
+    }
+
+    #idade{
+        position: relative;
+        bottom: 1px;
+        right: 0px;
+    }
+}
